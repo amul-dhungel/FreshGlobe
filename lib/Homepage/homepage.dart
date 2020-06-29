@@ -28,11 +28,13 @@ class _HomePageState extends State<HomePage> {
                   Positioned(
                     top: 0,
                     right: 190,
-                    child: IconButton(
+                    child: RaisedButton(
+                        elevation: 0,
+                        color: Colors.transparent,
                         onPressed: () {
-                          Navigator.of(context).pushNamed("/profile");
+                          Navigator.pushNamed(context, "/profile");
                         },
-                        icon: FaIcon(Icons.person_outline)),
+                        child: FaIcon(Icons.person_outline)),
                   ),
                   Align(
                     alignment: Alignment.topCenter,
@@ -57,16 +59,16 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                   Positioned(
-                    top: 10,
+                    top: 13,
                     right: 100,
                     child: Row(
                       children: [
                         SizedBox(
-                          width: 40,
+                          width: 20,
                         ),
                         Icon(Icons.notifications_active),
                         SizedBox(
-                          width: 20,
+                          width: 40,
                         ),
                         Icon(Icons.menu),
                       ],

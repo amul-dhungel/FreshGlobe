@@ -135,7 +135,7 @@ class CircularParticleLogin extends StatelessWidget {
                           height: 55.0,
                           child: RaisedButton(
                             onPressed: () {
-                              Navigator.pushNamed(context, "/profile");
+                              Navigator.pushNamed(context, "/homepage");
                             },
                             color: Colors.purple,
                             child: Container(

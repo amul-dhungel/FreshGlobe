@@ -9,7 +9,7 @@ import 'profile/profile.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: '/homepage',
+    initialRoute: '/',
     routes: {
       '/': (context) => HomeScreen(),
       '/login': (context) => CircularParticleLogin(),
