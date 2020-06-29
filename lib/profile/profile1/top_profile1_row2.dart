@@ -12,7 +12,7 @@ class _TopProfile1Row2State extends State<TopProfile1Row2> {
   Widget build(BuildContext context) {
     return CircleAvatar(
       radius: 55,
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       child: CircleAvatar(
         radius: 50,
         backgroundColor: Colors.green, //

@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:freshglobe/shrijal/postContainer.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Profile3 extends StatefulWidget {
   @override
@@ -22,10 +25,21 @@ class _Profile3State extends State<Profile3> {
       child: Column(
         children: [
           Row(
-            children: [Text("PhotoFeed")],
+            children: [
+              Text(
+                "PhotoFeed",
+                style: GoogleFonts.spartan(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700,
+                  fontStyle: FontStyle.italic,
+                ),
+              )
+            ],
           ),
           Row(
-            children: [],
+            children: [
+              PostContainer(),
+            ],
           ),
         ],
       ),

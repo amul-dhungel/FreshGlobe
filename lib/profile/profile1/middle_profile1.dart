@@ -17,13 +17,13 @@ class _MiddleProfile1State extends State<MiddleProfile1> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("12",
-                style: GoogleFonts.spartan(
+                style: GoogleFonts.openSans(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
                   fontStyle: FontStyle.italic,
                 )),
             Text("POSTS",
-                style: GoogleFonts.spartan(
+                style: GoogleFonts.openSans(
                   //
                   fontSize: 8,
                   fontWeight: FontWeight.w700,
@@ -37,13 +37,13 @@ class _MiddleProfile1State extends State<MiddleProfile1> {
         Column(
           children: [
             Text("5.1K",
-                style: GoogleFonts.spartan(
+                style: GoogleFonts.openSans(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
                   fontStyle: FontStyle.italic,
                 )),
             Text("FOLLOWERS",
-                style: GoogleFonts.spartan(
+                style: GoogleFonts.openSans(
                   fontSize: 8,
                   fontWeight: FontWeight.w700,
                   fontStyle: FontStyle.italic,
@@ -56,13 +56,32 @@ class _MiddleProfile1State extends State<MiddleProfile1> {
         Column(
           children: [
             Text("150",
-                style: GoogleFonts.spartan(
+                style: GoogleFonts.openSans(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,
                   fontStyle: FontStyle.italic,
                 )),
             Text("FOLLOWING",
-                style: GoogleFonts.spartan(
+                style: GoogleFonts.openSans(
+                  fontSize: 8,
+                  fontWeight: FontWeight.w700,
+                  fontStyle: FontStyle.italic,
+                )),
+          ],
+        ),
+        SizedBox(
+          width: 15,
+        ),
+        Column(
+          children: [
+            Text("10",
+                style: GoogleFonts.openSans(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700,
+                  fontStyle: FontStyle.italic,
+                )),
+            Text("REWARDS",
+                style: GoogleFonts.openSans(
                   fontSize: 8,
                   fontWeight: FontWeight.w700,
                   fontStyle: FontStyle.italic,

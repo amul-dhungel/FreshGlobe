@@ -26,7 +26,7 @@ class _ProfileState extends State<Profile> {
               height: MediaQuery.of(context).size.height * 0.9,
               width: MediaQuery.of(context).size.width * 0.9,
               decoration: BoxDecoration(
-                  color: Colors.lightGreen[400],
+                  color: Colors.white,
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.circular(10)),
               child: Row(
@@ -36,9 +36,6 @@ class _ProfileState extends State<Profile> {
                   Column(
                     children: [
                       Profile2(),
-                      Divider(
-                        color: Colors.grey,
-                      ),
                       Profile3(),
                     ],
                   ),

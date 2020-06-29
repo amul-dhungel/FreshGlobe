@@ -14,8 +14,8 @@ class HomeScreen extends StatelessWidget {
       body: Stack(
         children: [
           Container(
-            height: 1000,
-            width: 1500,
+            height: screenHeight,
+            width: screenWidth,
             child: Center(
               child: CircularParticle(
                 awayRadius: 80,

@@ -27,7 +27,6 @@ class _Profile2State extends State<Profile2> {
             child: TextField(
               enabled: true,
               showCursor: true,
-              autofillHints: {"Crafting", "Medicine", "plantation"},
               decoration: InputDecoration(
                   hintText: "Search Category", border: InputBorder.none),
             ),

@@ -17,14 +17,14 @@ class _TopProfile1Row1State extends State<TopProfile1Row1> {
         children: [
           FaIcon(FontAwesomeIcons.globe),
           SizedBox(
-            width: 55,
+            width: 15,
           ),
           Text(
             "Fresh Globe",
-            style: GoogleFonts.spartan(
+            style: GoogleFonts.openSans(
               fontSize: 20,
               fontWeight: FontWeight.w700,
-              fontStyle: FontStyle.italic, //
+              fontStyle: FontStyle.normal, //
             ),
           )
         ],
