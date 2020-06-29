@@ -38,10 +38,7 @@ class _PostContainerState extends State<PostContainer> {
                       CircleAvatar(
                           backgroundColor: Colors.white,
                           radius: 25,
-                          child: Image(
-                              width: 60,
-                              height: 90,
-                              image: AssetImage(posts[0].userImageUrl))),
+                          backgroundImage: AssetImage(posts[0].userImageUrl)),
                       SizedBox(
                         width: 10,
                       ),

@@ -15,7 +15,7 @@ class _TopProfile1Row2State extends State<TopProfile1Row2> {
       backgroundColor: Colors.black,
       child: CircleAvatar(
         radius: 50,
-        backgroundColor: Colors.green, //
+        backgroundImage: AssetImage("images/crafting.jpg"), //
       ),
     );
   }

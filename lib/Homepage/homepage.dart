@@ -76,11 +76,15 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ],
               ),
-              PostContainer(),
+              postContainer(context, 0),
               SizedBox(
                 height: 10,
               ),
-              PostContainer()
+              postContainer(context, 1),
+              SizedBox(
+                height: 10,
+              ),
+              postContainer(context, 2),
             ],
           ),
         ),

@@ -12,7 +12,7 @@ class _TopProfile1Row3State extends State<TopProfile1Row3> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text("Shuvam Koirala",
+        Text("Shrijal313",
             style: GoogleFonts.spartan(
               fontSize: 20,
               fontWeight: FontWeight.w700,

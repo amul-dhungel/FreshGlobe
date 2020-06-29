@@ -27,10 +27,7 @@ Widget postContainer(BuildContext context, int index) {
                     CircleAvatar(
                         backgroundColor: Colors.white,
                         radius: 25,
-                        child: Image(
-                            width: 60,
-                            height: 90,
-                            image: AssetImage(posts[index].userImageUrl))),
+                        backgroundImage: AssetImage(posts[index].userImageUrl)),
                     SizedBox(
                       width: 10,
                     ),
@@ -58,7 +55,7 @@ Widget postContainer(BuildContext context, int index) {
                 padding: const EdgeInsets.symmetric(horizontal: 10.0),
                 child: Container(
                   width: width,
-                  height: containerHeight * .75,
+                  height: containerHeight * .6,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20),
                     boxShadow: [
@@ -69,7 +66,7 @@ Widget postContainer(BuildContext context, int index) {
                       )
                     ],
                     image: DecorationImage(
-                        image: AssetImage(posts[0].imageUrl),
+                        image: AssetImage(posts[index].imageUrl),
                         fit: BoxFit.cover),
                   ),
                 ),

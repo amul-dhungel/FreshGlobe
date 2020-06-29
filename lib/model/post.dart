@@ -14,21 +14,33 @@ class Post {
 
 final List<Post> posts = [
   Post(
-    userImageUrl: 'assets/images/avatar/avatar.png',
+    userImageUrl: 'images/crafting.jpg',
     userName: 'Shuvam Koirala',
     timeAgo: '5 min',
-    imageUrl: 'assets/images/post/image1.jpg',
+    imageUrl: 'images/crafting.jpg',
   ),
   Post(
-    userImageUrl: 'assets/images/avatar/avatar.png',
+    userImageUrl: 'images/recycle.jpg',
     userName: 'Sheetal Guragain',
     timeAgo: '10 min',
-    imageUrl: 'assets/images/post/image1.jpg',
+    imageUrl: 'images/recycle.jpg',
   ),
   Post(
-    userImageUrl: 'assets/images/avatar/avatar.png',
+    userImageUrl: 'images/home-medicine.jpg',
     userName: 'Amul Dhungel',
     timeAgo: '10 min',
-    imageUrl: 'assets/images/post/image1.jpg',
+    imageUrl: 'images/home-medicine.jpg',
+  ),
+  Post(
+    userImageUrl: 'images/watering.jpg',
+    userName: 'Amul Dhungel',
+    timeAgo: '10 min',
+    imageUrl: 'images/watering.jpg',
+  ),
+  Post(
+    userImageUrl: 'images/plantation.jpg',
+    userName: 'Amul Dhungel',
+    timeAgo: '10 min',
+    imageUrl: 'images/plantation.jpg',
   ),
 ];
