@@ -1,5 +1,5 @@
 # freshglobe
-This is a eco friendly project. It was developed in google flutter Hack20 competition.
+This is a eco friendly project. It was developed for the google flutter competition.
 
 <img src="Screenshots/login.png">
 <img src="Screenshots/home.png">
